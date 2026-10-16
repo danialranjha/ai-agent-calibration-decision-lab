@@ -1,0 +1,12 @@
+{
+  "paper": "https://arxiv.org/html/2610.20907v1",
+  "upstream_repository": "https://github.com/lanqianlong/calibrated-decision-models",
+  "commit": "4c30771c7d8c07890884d596512251a7cf03157e",
+  "path": "src/security_deferral.py",
+  "git_blob_sha1": "ace85d1bd6fd0f291fa3eb2b7b3a1ed41193a257",
+  "bytes": 18652,
+  "git_blob_hash_verified": true,
+  "inspection": "Public source read, not executed. Distances from0.5, tied-group review and separate numeric interval branch inspected.",
+  "implementation": "Independent standard-library mathematical audit. No upstream source or prediction data redistributed.",
+  "not_reproduced": ["paper model predictions", "calibration fitting", "cohort escalation percentages", "live reviewer behavior"]
+}

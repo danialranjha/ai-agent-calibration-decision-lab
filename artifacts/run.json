@@ -1,0 +1,2855 @@
+{
+  "cohort_count": 4,
+  "cohorts": {
+    "already_correct": [
+      {
+        "decisions_at_half": {
+          "J": 0,
+          "K": 0,
+          "L": 1,
+          "M": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 8.359076634693813e-05,
+          "fn": 0,
+          "fnr": 0.0,
+          "fp": 0,
+          "fpr": 0.0,
+          "log_loss": 0.004974693185445315,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.058823529411764705,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.9411764705882353
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "L"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "K",
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "J",
+              "K",
+              "L",
+              "M"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "J"
+          ],
+          [
+            "K"
+          ],
+          [
+            "L"
+          ],
+          [
+            "M"
+          ]
+        ],
+        "scores": {
+          "J": 0.00010201999591920019,
+          "K": 0.00041631973355537064,
+          "L": 0.9817444219066936,
+          "M": 0.9990443830961988
+        },
+        "temperature": 0.5,
+        "uncertainty_groups": [
+          [
+            "L"
+          ],
+          [
+            "M"
+          ],
+          [
+            "K"
+          ],
+          [
+            "J"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "J": 0,
+          "K": 0,
+          "L": 1,
+          "M": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.00395,
+          "fn": 0,
+          "fnr": 0.0,
+          "fp": 0,
+          "fpr": 0.0,
+          "log_loss": 0.04713640554140359,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.2,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "L"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "K",
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "J",
+              "K",
+              "L",
+              "M"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "J"
+          ],
+          [
+            "K"
+          ],
+          [
+            "L"
+          ],
+          [
+            "M"
+          ]
+        ],
+        "scores": {
+          "J": 0.01,
+          "K": 0.02,
+          "L": 0.88,
+          "M": 0.97
+        },
+        "temperature": 1.0,
+        "uncertainty_groups": [
+          [
+            "L"
+          ],
+          [
+            "M"
+          ],
+          [
+            "K"
+          ],
+          [
+            "J"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "J": 0,
+          "K": 0,
+          "L": 1,
+          "M": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "REVIEW",
+            "M": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.029766104891234695,
+          "fn": 0,
+          "fnr": 0.0,
+          "fp": 0,
+          "fpr": 0.0,
+          "log_loss": 0.17639572801192321,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.3333333333333333,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.6666666666666666
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "L"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "K",
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "J",
+              "K",
+              "L",
+              "M"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "J"
+          ],
+          [
+            "K"
+          ],
+          [
+            "L"
+          ],
+          [
+            "M"
+          ]
+        ],
+        "scores": {
+          "J": 0.09132524868434899,
+          "K": 0.12500000000000003,
+          "L": 0.7303137681770547,
+          "M": 0.8504391264975321
+        },
+        "temperature": 2.0,
+        "uncertainty_groups": [
+          [
+            "L"
+          ],
+          [
+            "M"
+          ],
+          [
+            "K"
+          ],
+          [
+            "J"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "J": 0,
+          "K": 0,
+          "L": 1,
+          "M": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "J": "REVIEW",
+            "K": "REVIEW",
+            "L": "REVIEW",
+            "M": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.09083658915875283,
+          "fn": 0,
+          "fnr": 0.0,
+          "fp": 0,
+          "fpr": 0.0,
+          "log_loss": 0.3552449306795977,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.4142135623730951,
+          "routes": {
+            "J": "ALLOW",
+            "K": "ALLOW",
+            "L": "BLOCK",
+            "M": "BLOCK"
+          },
+          "upper": 0.585786437626905
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "L"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "K",
+              "L",
+              "M"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "J": 0,
+              "K": 0,
+              "L": 1,
+              "M": 1
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "J",
+              "K",
+              "L",
+              "M"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "J"
+          ],
+          [
+            "K"
+          ],
+          [
+            "L"
+          ],
+          [
+            "M"
+          ]
+        ],
+        "scores": {
+          "J": 0.24071199842699662,
+          "K": 0.27429188517743175,
+          "L": 0.6220144933941525,
+          "M": 0.704542712105414
+        },
+        "temperature": 4.0,
+        "uncertainty_groups": [
+          [
+            "L"
+          ],
+          [
+            "M"
+          ],
+          [
+            "K"
+          ],
+          [
+            "J"
+          ]
+        ]
+      }
+    ],
+    "boundary": [
+      {
+        "decisions_at_half": {
+          "R": 0,
+          "S": 1,
+          "U": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 1,
+          "brier": 0.26359445559374545,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 1.0,
+          "log_loss": 0.7203507369975224,
+          "n": 3
+        },
+        "remapped_interval": {
+          "lower": 0.058823529411764705,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.9411764705882353
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "S"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 1,
+              "S": 1,
+              "U": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 3,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "R",
+              "S",
+              "U"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "R"
+          ],
+          [
+            "S"
+          ],
+          [
+            "U"
+          ]
+        ],
+        "scores": {
+          "R": 0.48000799680127954,
+          "S": 0.5,
+          "U": 0.5199920031987205
+        },
+        "temperature": 0.5,
+        "uncertainty_groups": [
+          [
+            "S"
+          ],
+          [
+            "R",
+            "U"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "R": 0,
+          "S": 1,
+          "U": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 1,
+          "brier": 0.2567333333333333,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 1.0,
+          "log_loss": 0.7066156521049582,
+          "n": 3
+        },
+        "remapped_interval": {
+          "lower": 0.2,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "S"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 1,
+              "S": 1,
+              "U": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 3,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "R",
+              "S",
+              "U"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "R"
+          ],
+          [
+            "S"
+          ],
+          [
+            "U"
+          ]
+        ],
+        "scores": {
+          "R": 0.49,
+          "S": 0.5,
+          "U": 0.51
+        },
+        "temperature": 1.0,
+        "uncertainty_groups": [
+          [
+            "S"
+          ],
+          [
+            "R",
+            "U"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "R": 0,
+          "S": 1,
+          "U": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 1,
+          "brier": 0.25335033673418356,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 1.0,
+          "log_loss": 0.6998480779980071,
+          "n": 3
+        },
+        "remapped_interval": {
+          "lower": 0.3333333333333333,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.6666666666666666
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "S"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 1,
+              "S": 1,
+              "U": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 3,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "R",
+              "S",
+              "U"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "R"
+          ],
+          [
+            "S"
+          ],
+          [
+            "U"
+          ]
+        ],
+        "scores": {
+          "R": 0.49499949989997505,
+          "S": 0.5,
+          "U": 0.5050005001000251
+        },
+        "temperature": 2.0,
+        "uncertainty_groups": [
+          [
+            "S"
+          ],
+          [
+            "R",
+            "U"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "R": 0,
+          "S": 1,
+          "U": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 1,
+          "brier": 0.25167104275656804,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 1.0,
+          "log_loss": 0.696489293965917,
+          "n": 3
+        },
+        "remapped_interval": {
+          "lower": 0.4142135623730951,
+          "routes": {
+            "R": "REVIEW",
+            "S": "REVIEW",
+            "U": "REVIEW"
+          },
+          "upper": 0.585786437626905
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 0,
+              "S": 1,
+              "U": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 3,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "S"
+            ]
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 1,
+            "decisions": {
+              "R": 1,
+              "S": 1,
+              "U": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 3,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "R",
+              "S",
+              "U"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "R"
+          ],
+          [
+            "S"
+          ],
+          [
+            "U"
+          ]
+        ],
+        "scores": {
+          "R": 0.49749968742810513,
+          "S": 0.5,
+          "U": 0.5025003125718949
+        },
+        "temperature": 4.0,
+        "uncertainty_groups": [
+          [
+            "S"
+          ],
+          [
+            "R",
+            "U"
+          ]
+        ]
+      }
+    ],
+    "equal_score_twins": [
+      {
+        "decisions_at_half": {
+          "N": 0,
+          "O": 0,
+          "P": 1,
+          "Q": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.4879535990481856,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 0.5,
+          "log_loss": 2.2094946699280333,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.058823529411764705,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.9411764705882353
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 0,
+              "O": 0,
+              "P": 1,
+              "Q": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 1,
+              "O": 0,
+              "P": 1,
+              "Q": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "N",
+              "O",
+              "P",
+              "Q"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "N",
+            "O"
+          ],
+          [
+            "P",
+            "Q"
+          ]
+        ],
+        "scores": {
+          "N": 0.012195121951219518,
+          "O": 0.012195121951219518,
+          "P": 0.9878048780487805,
+          "Q": 0.9878048780487805
+        },
+        "temperature": 0.5,
+        "uncertainty_groups": [
+          [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "N": 0,
+          "O": 0,
+          "P": 1,
+          "Q": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.41000000000000003,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 0.5,
+          "log_loss": 1.203972804325936,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.2,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 0,
+              "O": 0,
+              "P": 1,
+              "Q": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 1,
+              "O": 0,
+              "P": 1,
+              "Q": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "N",
+              "O",
+              "P",
+              "Q"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "N",
+            "O"
+          ],
+          [
+            "P",
+            "Q"
+          ]
+        ],
+        "scores": {
+          "N": 0.1,
+          "O": 0.1,
+          "P": 0.9,
+          "Q": 0.9
+        },
+        "temperature": 1.0,
+        "uncertainty_groups": [
+          [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "N": 0,
+          "O": 0,
+          "P": 1,
+          "Q": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "N": "REVIEW",
+            "O": "REVIEW",
+            "P": "REVIEW",
+            "Q": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.3125,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 0.5,
+          "log_loss": 0.8369882167858358,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.3333333333333333,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.6666666666666666
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 0,
+              "O": 0,
+              "P": 1,
+              "Q": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 1,
+              "O": 0,
+              "P": 1,
+              "Q": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "N",
+              "O",
+              "P",
+              "Q"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "N",
+            "O"
+          ],
+          [
+            "P",
+            "Q"
+          ]
+        ],
+        "scores": {
+          "N": 0.25,
+          "O": 0.25,
+          "P": 0.75,
+          "Q": 0.75
+        },
+        "temperature": 2.0,
+        "uncertainty_groups": [
+          [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "N": 0,
+          "O": 0,
+          "P": 1,
+          "Q": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "N": "REVIEW",
+            "O": "REVIEW",
+            "P": "REVIEW",
+            "Q": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 2,
+          "benign_labels": 2,
+          "brier": 0.2679491924311227,
+          "fn": 1,
+          "fnr": 0.5,
+          "fp": 1,
+          "fpr": 0.5,
+          "log_loss": 0.7303994665753536,
+          "n": 4
+        },
+        "remapped_interval": {
+          "lower": 0.4142135623730951,
+          "routes": {
+            "N": "ALLOW",
+            "O": "ALLOW",
+            "P": "BLOCK",
+            "Q": "BLOCK"
+          },
+          "upper": 0.585786437626905
+        },
+        "review_curve": [
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 0,
+              "O": 0,
+              "P": 1,
+              "Q": 1
+            },
+            "fn": 1,
+            "fp": 1,
+            "n": 4,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 2,
+            "benign_labels": 2,
+            "decisions": {
+              "N": 1,
+              "O": 0,
+              "P": 1,
+              "Q": 0
+            },
+            "fn": 0,
+            "fp": 0,
+            "n": 4,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "N",
+              "O",
+              "P",
+              "Q"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "N",
+            "O"
+          ],
+          [
+            "P",
+            "Q"
+          ]
+        ],
+        "scores": {
+          "N": 0.3660254037844387,
+          "O": 0.3660254037844387,
+          "P": 0.6339745962155614,
+          "Q": 0.6339745962155614
+        },
+        "temperature": 4.0,
+        "uncertainty_groups": [
+          [
+            "N",
+            "O",
+            "P",
+            "Q"
+          ]
+        ]
+      }
+    ],
+    "main": [
+      {
+        "decisions_at_half": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 1,
+          "F": 1,
+          "G": 1,
+          "H": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "ALLOW",
+            "E": "REVIEW",
+            "F": "BLOCK",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 4,
+          "benign_labels": 4,
+          "brier": 0.49574863349713216,
+          "fn": 2,
+          "fnr": 0.5,
+          "fp": 2,
+          "fpr": 0.5,
+          "log_loss": 2.9437783139955003,
+          "n": 8
+        },
+        "remapped_interval": {
+          "lower": 0.058823529411764705,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.9411764705882353
+        },
+        "review_curve": [
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "E"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 3,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 5,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 6,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 7,
+            "reviewed_ids": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 1,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 1,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 8,
+            "reviewed_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "D"
+          ],
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ],
+          [
+            "H"
+          ]
+        ],
+        "scores": {
+          "A": 0.00010201999591920019,
+          "B": 0.00041631973355537064,
+          "C": 0.012195121951219518,
+          "D": 0.06599820413049985,
+          "E": 0.5990099009900991,
+          "F": 0.9093198992443325,
+          "G": 0.9817444219066936,
+          "H": 0.9990443830961988
+        },
+        "temperature": 0.5,
+        "uncertainty_groups": [
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "D"
+          ],
+          [
+            "G"
+          ],
+          [
+            "C"
+          ],
+          [
+            "H"
+          ],
+          [
+            "B"
+          ],
+          [
+            "A"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 1,
+          "F": 1,
+          "G": 1,
+          "H": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 4,
+          "benign_labels": 4,
+          "brier": 0.44625,
+          "fn": 2,
+          "fnr": 0.5,
+          "fp": 2,
+          "fpr": 0.5,
+          "log_loss": 1.6028781181307947,
+          "n": 8
+        },
+        "remapped_interval": {
+          "lower": 0.2,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "review_curve": [
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "E"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 3,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 5,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 6,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 7,
+            "reviewed_ids": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 1,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 1,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 8,
+            "reviewed_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "D"
+          ],
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ],
+          [
+            "H"
+          ]
+        ],
+        "scores": {
+          "A": 0.01,
+          "B": 0.02,
+          "C": 0.1,
+          "D": 0.21,
+          "E": 0.55,
+          "F": 0.76,
+          "G": 0.88,
+          "H": 0.97
+        },
+        "temperature": 1.0,
+        "uncertainty_groups": [
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "D"
+          ],
+          [
+            "G"
+          ],
+          [
+            "C"
+          ],
+          [
+            "H"
+          ],
+          [
+            "B"
+          ],
+          [
+            "A"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 1,
+          "F": 1,
+          "G": 1,
+          "H": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "REVIEW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "REVIEW",
+            "H": "BLOCK"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 4,
+          "benign_labels": 4,
+          "brier": 0.3688715211483225,
+          "fn": 2,
+          "fnr": 0.5,
+          "fp": 2,
+          "fpr": 0.5,
+          "log_loss": 1.0262247378334104,
+          "n": 8
+        },
+        "remapped_interval": {
+          "lower": 0.3333333333333333,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.6666666666666666
+        },
+        "review_curve": [
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "E"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 3,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 5,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 6,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 7,
+            "reviewed_ids": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 1,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 1,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 8,
+            "reviewed_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "D"
+          ],
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ],
+          [
+            "H"
+          ]
+        ],
+        "scores": {
+          "A": 0.09132524868434899,
+          "B": 0.12500000000000003,
+          "C": 0.25,
+          "D": 0.34018661566952757,
+          "E": 0.5250628144669003,
+          "F": 0.6402247498437453,
+          "G": 0.7303137681770547,
+          "H": 0.8504391264975321
+        },
+        "temperature": 2.0,
+        "uncertainty_groups": [
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "D"
+          ],
+          [
+            "G"
+          ],
+          [
+            "C"
+          ],
+          [
+            "H"
+          ],
+          [
+            "B"
+          ],
+          [
+            "A"
+          ]
+        ]
+      },
+      {
+        "decisions_at_half": {
+          "A": 0,
+          "B": 0,
+          "C": 0,
+          "D": 0,
+          "E": 1,
+          "F": 1,
+          "G": 1,
+          "H": 1
+        },
+        "fixed_interval": {
+          "lower": 0.2,
+          "routes": {
+            "A": "REVIEW",
+            "B": "REVIEW",
+            "C": "REVIEW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "REVIEW",
+            "H": "REVIEW"
+          },
+          "upper": 0.8
+        },
+        "metrics": {
+          "attack_labels": 4,
+          "benign_labels": 4,
+          "brier": 0.3039864232454845,
+          "fn": 2,
+          "fnr": 0.5,
+          "fp": 2,
+          "fpr": 0.5,
+          "log_loss": 0.8126218728374057,
+          "n": 8
+        },
+        "remapped_interval": {
+          "lower": 0.4142135623730951,
+          "routes": {
+            "A": "ALLOW",
+            "B": "ALLOW",
+            "C": "ALLOW",
+            "D": "REVIEW",
+            "E": "REVIEW",
+            "F": "REVIEW",
+            "G": "BLOCK",
+            "H": "BLOCK"
+          },
+          "upper": 0.585786437626905
+        },
+        "review_curve": [
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 0,
+            "reviewed_ids": []
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 1,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 2,
+            "n": 8,
+            "reviewed_count": 1,
+            "reviewed_ids": [
+              "E"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 2,
+            "reviewed_ids": [
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 1,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 3,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 0,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 3,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 4,
+            "reviewed_ids": [
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 1
+            },
+            "fn": 2,
+            "fp": 1,
+            "n": 8,
+            "reviewed_count": 5,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 6,
+            "reviewed_ids": [
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 0,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 2,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 7,
+            "reviewed_ids": [
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          },
+          {
+            "attack_labels": 4,
+            "benign_labels": 4,
+            "decisions": {
+              "A": 1,
+              "B": 0,
+              "C": 1,
+              "D": 0,
+              "E": 1,
+              "F": 0,
+              "G": 0,
+              "H": 0
+            },
+            "fn": 1,
+            "fp": 0,
+            "n": 8,
+            "reviewed_count": 8,
+            "reviewed_ids": [
+              "A",
+              "B",
+              "C",
+              "D",
+              "E",
+              "F",
+              "G",
+              "H"
+            ]
+          }
+        ],
+        "score_groups": [
+          [
+            "A"
+          ],
+          [
+            "B"
+          ],
+          [
+            "C"
+          ],
+          [
+            "D"
+          ],
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "G"
+          ],
+          [
+            "H"
+          ]
+        ],
+        "scores": {
+          "A": 0.24071199842699662,
+          "B": 0.27429188517743175,
+          "C": 0.3660254037844387,
+          "D": 0.41794104603593696,
+          "E": 0.512539288674583,
+          "F": 0.5715480297209076,
+          "G": 0.6220144933941525,
+          "H": 0.704542712105414
+        },
+        "temperature": 4.0,
+        "uncertainty_groups": [
+          [
+            "E"
+          ],
+          [
+            "F"
+          ],
+          [
+            "D"
+          ],
+          [
+            "G"
+          ],
+          [
+            "C"
+          ],
+          [
+            "H"
+          ],
+          [
+            "B"
+          ],
+          [
+            "A"
+          ]
+        ]
+      }
+    ]
+  },
+  "fixture_count": 19,
+  "method": "sigmoid(logit(p)/T), positive scalar T fixed in advance",
+  "note": "Numerically close values are grouped; fixture distinct-distance gaps exceed tolerance. No endpoint clipping.",
+  "scope": "Invented scores, labels and reviewer decisions. No model outputs or real messages.",
+  "score_records": 76,
+  "tie_tolerance": 1e-12
+}

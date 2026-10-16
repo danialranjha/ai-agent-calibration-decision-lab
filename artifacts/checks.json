@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "errors": 0,
+    "failures": 0,
+    "passed": true,
+    "tests": 11
+  },
+  "faults": {
+    "hide_misses": {
+      "errors": 0,
+      "failures": 3,
+      "passed": false,
+      "tests": 11
+    },
+    "skip_scaling": {
+      "errors": 0,
+      "failures": 5,
+      "passed": false,
+      "tests": 11
+    }
+  },
+  "faults_detected": true
+}
